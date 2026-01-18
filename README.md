@@ -92,22 +92,23 @@ Streamlit
 📂 Project Structure
 
 ecoassist/
+│
 ├── app.py # Streamlit application
-├── requirements.txt
+├── requirements.txt # Project dependencies
+├── README.md # Project documentation
 │
 ├── data/
 │ └── policies/ # Sustainability PDF documents
 │
 ├── rag/
-│ ├── loader.py # PDF loader
-│ ├── splitter.py # Text chunking
+│ ├── loader.py # PDF document loader
+│ ├── splitter.py # Text chunking logic
 │ ├── embeddings.py # Embedding generation
 │ ├── vector_store.py # FAISS vector store
 │ └── qa_chain.py # RAG-based QA logic
 │
-├── test_rag.py # RAG pipeline test
-├── test_qa.py # QA testing script
-└── README.md
+├── test_rag.py # RAG pipeline test script
+└── test_qa.py # Question–Answer testing script
 
 🚀 How It Works (RAG Pipeline)
 
